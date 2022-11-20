@@ -29,6 +29,10 @@ body .imgTouch {
   width: 600px;
   height: 800px;
 }
+body .imgAbout {
+  width: 600px;
+  height: 800px;
+}
 
 footer {
   background-color: rgb(0, 0, 0);
