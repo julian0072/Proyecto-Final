@@ -33,6 +33,15 @@ body .imgAbout {
   width: 600px;
   height: 800px;
 }
+body .imgCareer {
+  width: 300px;
+  height: 400px;
+}
+body hr {
+  height: 0;
+  border: 0;
+  border-top: 2px solid black;
+}
 
 footer {
   background-color: rgb(0, 0, 0);
