@@ -1,16 +1,28 @@
 body {
   background-color: $color-body;
+
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-family: "Satisfy", cursive;
+  }
+
   .imagenWork {
     width: 600px;
     height: 500px;
+    &:hover {
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+      transition: 1s ease;
+    }
   }
   .imgTouch {
-    width: 600px;
-    height: 800px;
+    @include size;
   }
   .imgAbout {
-    width: 600px;
-    height: 800px;
+    @include size;
   }
   .imgCareer {
     width: 300px;
