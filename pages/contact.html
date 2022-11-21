@@ -83,13 +83,88 @@
 
     <!--MAIN-->
 
-    <main>
-      <div class="container-fluid p-5">
-        <div class="col-md-6">
-          <form action="" class="mb-5"></form>
+    <section class="py-5 container-fluid contacto">
+      <h2 class="h1-responsive font-weight-bold text-center py-4 display-4">
+        Contact us
+      </h2>
+
+      <p class="text-center w-responsive p-5">
+        Do you have any questions? Please do not hesitate to contact us
+        directly. Our team will come back to you within a matter of hours to
+        help you.
+      </p>
+
+      <div class="row d-flex justify-content-center align-items-center py-5">
+        <div class="col-md-9 mb-md-0">
+          <form
+            id="contact-form"
+            name="contact-form"
+            action="mail.php"
+            method="POST"
+          >
+            <div class="row mx-auto">
+              <div class="col-md-6 pb-4">
+                <div class="md-form mb-0">
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="form-control"
+                  />
+                  <label for="name" class="fw-bold">Your name</label>
+                </div>
+              </div>
+
+              <div class="col-md-6 pb-4">
+                <div class="md-form mb-0">
+                  <input
+                    type="text"
+                    id="email"
+                    name="email"
+                    class="form-control"
+                  />
+                  <label for="email" class="fw-bold">Your email</label>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mx-auto pb-3">
+              <div class="col-md-12">
+                <div class="md-form mb-0">
+                  <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    class="form-control"
+                  />
+                  <label for="subject" class="fw-bold">Subject</label>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mx-auto pb-3">
+              <div class="col-md-12">
+                <div class="md-form">
+                  <textarea
+                    type="text"
+                    id="message"
+                    name="message"
+                    rows="2"
+                    class="form-control md-textarea"
+                  ></textarea>
+                  <label for="message" class="fw-bold">Your message</label>
+                </div>
+              </div>
+            </div>
+          </form>
+
+          <div class="text-center text-md-left pb-5">
+            <a class="btn btn-primary">Send</a>
+          </div>
+          <div class="status"></div>
         </div>
       </div>
-    </main>
+    </section>
 
     <!--FOOTER-->
     <footer>
