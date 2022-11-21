@@ -58,6 +58,9 @@ body hr {
 body .contacto {
   background-color: rgb(243, 240, 240);
 }
+body .textoContacto {
+  font-size: 25px;
+}
 
 footer {
   background-color: rgb(0, 0, 0);
