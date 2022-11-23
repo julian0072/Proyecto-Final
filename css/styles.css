@@ -22,11 +22,21 @@ header ul li a {
 body {
   background-color: rgb(253, 252, 252);
 }
+body h1,
 body h2,
 body h3,
 body h4,
-body h5 {
+body h5,
+body a {
   font-family: "Satisfy", cursive;
+  text-shadow: 5px 8px 5px #c5b8b8;
+}
+body p {
+  font-size: 28px;
+}
+body .imgHome {
+  width: 600px;
+  height: 700px;
 }
 body .imagenWork {
   width: 600px;
@@ -55,11 +65,30 @@ body hr {
   border: 0;
   border-top: 2px solid black;
 }
-body .contacto {
-  background-color: rgb(243, 240, 240);
-}
 body .textoContacto {
   font-size: 25px;
+}
+body .btn {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #bebebe;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+body .btn:hover {
+  background-color: #040504;
+}
+body .btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 footer {

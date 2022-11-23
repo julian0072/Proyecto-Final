@@ -1,16 +1,29 @@
 body {
   background-color: $color-body;
 
+  h1,
   h2,
   h3,
   h4,
-  h5 {
+  h5,
+  a {
     font-family: "Satisfy", cursive;
+    text-shadow: 5px 8px 5px #c5b8b8;
+  }
+
+  p {
+    font-size: 28px;
+  }
+
+  .imgHome {
+    width: 600px;
+    height: 700px;
   }
 
   .imagenWork {
     width: 600px;
     height: 500px;
+
     &:hover {
       -webkit-transform: scale(1.2);
       -ms-transform: scale(1.2);
@@ -18,26 +31,52 @@ body {
       transition: 1s ease;
     }
   }
+
   .imgTouch {
     @include size;
   }
+
   .imgAbout {
     @include size;
   }
+
   .imgCareer {
     width: 300px;
     height: 400px;
   }
+
   hr {
     height: 0;
     border: 0;
     border-top: 2px solid black;
   }
 
-  .contacto {
-    background-color: $color-contacto;
-  }
   .textoContacto {
     font-size: 25px;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #bebebe;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+
+  .btn:hover {
+    background-color: #040504;
+  }
+
+  .btn:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
   }
 }
